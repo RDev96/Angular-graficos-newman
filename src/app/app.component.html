@@ -1,0 +1,8 @@
+<button (click)="cambioGrafico('line')">line</button>
+<button (click)="cambioGrafico('column')">column</button>
+<button (click)="cambioGrafico('bar')">bar</button>
+<button (click)="cambioGrafico('area')">area</button>
+
+<div>
+  <canvasjs-chart [options]="chartOptions"></canvasjs-chart>
+</div>
